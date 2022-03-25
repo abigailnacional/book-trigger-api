@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+  <html lang="en">
+  <title>{% block title %}Site Title{% endblock %}</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+  <head>
+    <style>
+    </style>
+  </head>
+  <body>
+    <!--Code for site header that you want to appear on every page goes here.-->
+    {% block content %}
+    <!--Do not type anything here. Make sure not to delete the stuff in curly brackets. -->
+    {% endblock %}
+  </body>
+</html>
