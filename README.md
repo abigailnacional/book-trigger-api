@@ -14,21 +14,21 @@ I used [this tutorial](https://www.freecodecamp.org/news/scraping-wikipedia-arti
 
 1. Clone the repo
    ```sh
-   git clone https://github.com/abigailnacional/flask-boilerplate.git
+   git clone https://github.com/abigailnacional/book-trigger-api.git
    ```
 2. Navigate to the folder
    ```sh
-   cd flask-boilerplate
+   cd book-trigger-api
    ```
 3. Run install.sh by dragging the file into your terminal.
 
-4. To initialize the example database, use the cockroach sql command to execute the SQL statements in the dbinit.sql file:
+4. To initialize the database, use the cockroach sql command to execute the SQL statements in the dbinit.sql file:
    ```sh
    cat dbinit.sql | cockroach sql --url "<connection-string>"
    ```
-Where connection-string is the connection string provided in the Connection info window of the CockroachDB Cloud Console.
+   Where connection-string is the connection string provided in the Connection info window of the CockroachDB Cloud Console.
 
-Note that you need to provide a SQL user password in order to securely connect to a CockroachDB Cloud cluster. The connection string should have a placeholder for the password (ENTER-PASSWORD).
+   Note that you need to provide a SQL user password in order to securely connect to a CockroachDB Cloud cluster. The connection string should have a placeholder for the password (ENTER-PASSWORD).
 
 5. Run the following commands in your terminal:
    ```sh
