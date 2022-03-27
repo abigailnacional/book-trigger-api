@@ -1,5 +1,5 @@
 # book-trigger-api
-Code for the Book Trigger API project for MLH's Hack Empowered Hackathon.
+Code for the Book Trigger API project for MLH's Hack Empowered Hackathon. [Here is the Devpost page.](https://devpost.com/software/book-trigger-warnings-api)
 
 # Acknowledgements
 Code for connecting the Flask app to CockroachDB is based off of [this repository](https://github.com/cockroachlabs/example-app-python-sqlalchemy) and [this tutorial](https://www.cockroachlabs.com/docs/stable/build-a-python-app-with-cockroachdb-sqlalchemy.html).
